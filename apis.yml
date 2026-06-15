@@ -23,151 +23,153 @@ position: Provider
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Commerce
-  - Ecommerce
-  - Headless Commerce
-  - Composable Commerce
-  - Storefront
-  - Personalization
-  - AI Personalization
-  - Product Recommendations
-  - Data Orchestration
-  - GraphQL
-  - Shopify
-  - Contentful
-  - Sanity
+- Commerce
+- Ecommerce
+- Headless Commerce
+- Composable Commerce
+- Storefront
+- Personalization
+- AI Personalization
+- Product Recommendations
+- Data Orchestration
+- GraphQL
+- Shopify
+- Contentful
+- Sanity
 url: https://raw.githubusercontent.com/api-evangelist/nacelle-com/refs/heads/main/apis.yml
 created: '2026-05-25'
 modified: '2026-05-25'
 specificationVersion: '0.20'
 apis:
-  - aid: nacelle-com:nacelle-storefront-graphql-api
-    name: Nacelle Storefront GraphQL API
-    description: >-
-      The Storefront GraphQL API is Nacelle's primary query interface for
-      syndicating normalized commerce data — products, variants, content,
-      pricing, price rules, media, metafields, SEO, and product options — to
-      custom storefronts and frontends. It supports typed fields, input
-      filters, and preview data for unpublished content. Authenticated via
-      Storefront API tokens; consumed directly over HTTPS or via the
-      JavaScript Storefront SDK (v1.x and v2.x) with GraphQL Codegen support.
-    tags:
-      - Commerce
-      - GraphQL
-      - Storefront
-      - Headless Commerce
-    humanURL: https://docs.nacelle.com/docs/storefront-graphql-api-stable
-    properties:
-      - url: https://docs.nacelle.com/docs/storefront-graphql-api-stable
-        type: Documentation
-      - url: https://docs.nacelle.com/docs/graphql-explorer
-        type: Sandbox
-        name: GraphQL Explorer
-      - url: https://docs.nacelle.com/docs/javascript-storefront-sdk
-        type: SDK
-        name: JavaScript Storefront SDK
-      - url: https://docs.nacelle.com/docs/storefront-sdk-major-version-2
-        type: SDK
-        name: Storefront SDK 2.x
-      - url: https://docs.nacelle.com/docs/auth-storefront
-        type: Authentication
-  - aid: nacelle-com:nacelle-ingest-rest-api
-    name: Nacelle Ingest REST API
-    description: >-
-      The Ingest REST API moves commerce data into Nacelle from any source —
-      products, content, pricing, inventory, orders, and customer data — and
-      backs Nacelle's prebuilt Shopify, Contentful, and Sanity connectors as
-      well as custom connectors for proprietary systems. Data ingested via
-      this API is normalized into Nacelle's commerce data model and made
-      available through the Storefront GraphQL API.
-    tags:
-      - Commerce
-      - Ingest
-      - REST
-      - Data Orchestration
-    humanURL: https://docs.nacelle.com/docs/ingest-rest-api
-    properties:
-      - url: https://docs.nacelle.com/docs/ingest-rest-api
-        type: Documentation
-      - url: https://docs.nacelle.com/docs/auth-oauth
-        type: Authentication
-      - url: https://docs.nacelle.com/docs/auth-credentials
-        type: Authentication
-  - aid: nacelle-com:nacelle-admin-api
-    name: Nacelle Admin API
-    description: >-
-      The Admin API exposes administrative operations for managing Nacelle
-      spaces, configuration, connectors, and platform-level resources outside
-      of the storefront query and ingest paths. Used by the Nacelle Dashboard
-      and platform tooling.
-    tags:
-      - Administrative
-      - Commerce
-    humanURL: https://docs.nacelle.com/docs/admin-api
-    properties:
-      - url: https://docs.nacelle.com/docs/admin-api
-        type: Documentation
-      - url: https://docs.nacelle.com/docs/auth-oauth
-        type: Authentication
-common:
-  - type: Website
-    url: https://nacelle.com
-  - type: Portal
-    url: https://docs.nacelle.com
-  - type: Documentation
-    url: https://docs.nacelle.com/docs/build-with-nacelle
-  - type: GettingStarted
-    url: https://docs.nacelle.com/docs/getting-started
-  - type: Documentation
-    name: GraphQL Reference
-    url: https://docs.nacelle.com/graphql
-  - type: Documentation
-    name: API Reference
-    url: https://docs.nacelle.com/reference
-  - type: Documentation
-    name: Recipes
-    url: https://docs.nacelle.com/recipes
-  - type: Documentation
-    name: LLMs Index
-    url: https://docs.nacelle.com/llms.txt
-  - type: Sandbox
+- aid: nacelle-com:nacelle-storefront-graphql-api
+  name: Nacelle Storefront GraphQL API
+  description: >-
+    The Storefront GraphQL API is Nacelle's primary query interface for
+    syndicating normalized commerce data — products, variants, content,
+    pricing, price rules, media, metafields, SEO, and product options — to
+    custom storefronts and frontends. It supports typed fields, input
+    filters, and preview data for unpublished content. Authenticated via
+    Storefront API tokens; consumed directly over HTTPS or via the
+    JavaScript Storefront SDK (v1.x and v2.x) with GraphQL Codegen support.
+  tags:
+  - Commerce
+  - GraphQL
+  - Storefront
+  - Headless Commerce
+  humanURL: https://docs.nacelle.com/docs/storefront-graphql-api-stable
+  properties:
+  - url: https://docs.nacelle.com/docs/storefront-graphql-api-stable
+    type: Documentation
+  - url: https://docs.nacelle.com/docs/graphql-explorer
+    type: Sandbox
     name: GraphQL Explorer
-    url: https://docs.nacelle.com/docs/graphql-explorer
-  - type: SignUp
-    name: Headless Dashboard
-    url: https://dashboard.nacelle.com/login
-  - type: Support
-    url: https://support.nacelle.com/hc/en-us
-  - type: StatusPage
-    url: https://status.nacelle.com
-  - type: Blog
-    url: https://nacelle.com/blog
-  - type: CaseStudies
-    url: https://nacelle.com/resources/customer-stories
-  - type: Careers
-    url: https://nacelle.com/careers
-  - type: Partners
-    url: https://nacelle.com/partners/partner-overview
-  - type: Pricing
-    url: https://nacelle.com/pricing
-  - type: GitHubOrganization
-    url: https://github.com/getnacelle
-  - type: SDK
-    name: nacelle-js (TypeScript)
-    url: https://github.com/getnacelle/nacelle-js
-  - type: SDK
-    name: Storefront SDK 2.x Examples
-    url: https://github.com/getnacelle/storefront-sdk-2.x-testing
-  - type: Tool
-    name: Contentful App for Nacelle
-    url: https://github.com/getnacelle/contentful-app-nacelle
-  - type: CodeExamples
-    name: Nuxt 2 Reference Storefront
-    url: https://github.com/getnacelle/nuxt-2-reference-store
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/getnacelle
-  - type: Twitter
-    url: https://twitter.com/getnacelle
+  - url: https://docs.nacelle.com/docs/javascript-storefront-sdk
+    type: SDK
+    name: JavaScript Storefront SDK
+  - url: https://docs.nacelle.com/docs/storefront-sdk-major-version-2
+    type: SDK
+    name: Storefront SDK 2.x
+  - url: https://docs.nacelle.com/docs/auth-storefront
+    type: Authentication
+  - url: graphql/nacelle-com-graphql.md
+    type: GraphQL
+- aid: nacelle-com:nacelle-ingest-rest-api
+  name: Nacelle Ingest REST API
+  description: >-
+    The Ingest REST API moves commerce data into Nacelle from any source —
+    products, content, pricing, inventory, orders, and customer data — and
+    backs Nacelle's prebuilt Shopify, Contentful, and Sanity connectors as
+    well as custom connectors for proprietary systems. Data ingested via
+    this API is normalized into Nacelle's commerce data model and made
+    available through the Storefront GraphQL API.
+  tags:
+  - Commerce
+  - Ingest
+  - REST
+  - Data Orchestration
+  humanURL: https://docs.nacelle.com/docs/ingest-rest-api
+  properties:
+  - url: https://docs.nacelle.com/docs/ingest-rest-api
+    type: Documentation
+  - url: https://docs.nacelle.com/docs/auth-oauth
+    type: Authentication
+  - url: https://docs.nacelle.com/docs/auth-credentials
+    type: Authentication
+- aid: nacelle-com:nacelle-admin-api
+  name: Nacelle Admin API
+  description: >-
+    The Admin API exposes administrative operations for managing Nacelle
+    spaces, configuration, connectors, and platform-level resources outside
+    of the storefront query and ingest paths. Used by the Nacelle Dashboard
+    and platform tooling.
+  tags:
+  - Administrative
+  - Commerce
+  humanURL: https://docs.nacelle.com/docs/admin-api
+  properties:
+  - url: https://docs.nacelle.com/docs/admin-api
+    type: Documentation
+  - url: https://docs.nacelle.com/docs/auth-oauth
+    type: Authentication
+common:
+- type: Website
+  url: https://nacelle.com
+- type: Portal
+  url: https://docs.nacelle.com
+- type: Documentation
+  url: https://docs.nacelle.com/docs/build-with-nacelle
+- type: GettingStarted
+  url: https://docs.nacelle.com/docs/getting-started
+- type: Documentation
+  name: GraphQL Reference
+  url: https://docs.nacelle.com/graphql
+- type: Documentation
+  name: API Reference
+  url: https://docs.nacelle.com/reference
+- type: Documentation
+  name: Recipes
+  url: https://docs.nacelle.com/recipes
+- type: Documentation
+  name: LLMs Index
+  url: https://docs.nacelle.com/llms.txt
+- type: Sandbox
+  name: GraphQL Explorer
+  url: https://docs.nacelle.com/docs/graphql-explorer
+- type: SignUp
+  name: Headless Dashboard
+  url: https://dashboard.nacelle.com/login
+- type: Support
+  url: https://support.nacelle.com/hc/en-us
+- type: StatusPage
+  url: https://status.nacelle.com
+- type: Blog
+  url: https://nacelle.com/blog
+- type: CaseStudies
+  url: https://nacelle.com/resources/customer-stories
+- type: Careers
+  url: https://nacelle.com/careers
+- type: Partners
+  url: https://nacelle.com/partners/partner-overview
+- type: Pricing
+  url: https://nacelle.com/pricing
+- type: GitHubOrganization
+  url: https://github.com/getnacelle
+- type: SDK
+  name: nacelle-js (TypeScript)
+  url: https://github.com/getnacelle/nacelle-js
+- type: SDK
+  name: Storefront SDK 2.x Examples
+  url: https://github.com/getnacelle/storefront-sdk-2.x-testing
+- type: Tool
+  name: Contentful App for Nacelle
+  url: https://github.com/getnacelle/contentful-app-nacelle
+- type: CodeExamples
+  name: Nuxt 2 Reference Storefront
+  url: https://github.com/getnacelle/nuxt-2-reference-store
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getnacelle
+- type: Twitter
+  url: https://twitter.com/getnacelle
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
