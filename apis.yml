@@ -64,10 +64,10 @@ apis:
     type: Sandbox
     name: GraphQL Explorer
   - url: https://docs.nacelle.com/docs/javascript-storefront-sdk
-    type: SDK
+    type: SDKs
     name: JavaScript Storefront SDK
   - url: https://docs.nacelle.com/docs/storefront-sdk-major-version-2
-    type: SDK
+    type: SDKs
     name: Storefront SDK 2.x
   - url: https://docs.nacelle.com/docs/auth-storefront
     type: Authentication
@@ -135,7 +135,7 @@ common:
 - type: Sandbox
   name: GraphQL Explorer
   url: https://docs.nacelle.com/docs/graphql-explorer
-- type: SignUp
+- type: Signup
   name: Headless Dashboard
   url: https://dashboard.nacelle.com/login
 - type: Support
@@ -154,13 +154,13 @@ common:
   url: https://nacelle.com/pricing
 - type: GitHubOrganization
   url: https://github.com/getnacelle
-- type: SDK
+- type: SDKs
   name: nacelle-js (TypeScript)
   url: https://github.com/getnacelle/nacelle-js
-- type: SDK
+- type: SDKs
   name: Storefront SDK 2.x Examples
   url: https://github.com/getnacelle/storefront-sdk-2.x-testing
-- type: Tool
+- type: Tools
   name: Contentful App for Nacelle
   url: https://github.com/getnacelle/contentful-app-nacelle
 - type: CodeExamples

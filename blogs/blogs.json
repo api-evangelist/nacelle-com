@@ -2,11 +2,11 @@
   "repo": "nacelle-com",
   "feeds": [
     {
-      "source": "https://nacelle.com/blog",
+      "source": "https://nacelle.com/blog/rss.xml",
       "feed_url": "https://nacelle.com/blog/rss.xml",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://status.nacelle.com",
@@ -16,6 +16,6 @@
       "method": "discovered"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "post_count": 10,
+  "fetched": "2026-06-27T12:03:07Z"
 }
