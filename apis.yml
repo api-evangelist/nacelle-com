@@ -112,6 +112,12 @@ apis:
   - url: https://docs.nacelle.com/docs/auth-oauth
     type: Authentication
 common:
+- type: TrustCenter
+  url: security/nacelle-com-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/nacelle-com-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/nacelle-com-domain-security.yml
 - type: Website
   url: https://nacelle.com
 - type: Portal
